@@ -61,49 +61,15 @@ nav a:hover {
   text-decoration: none;
 }
 
-/* Hero */
-.hero {
-  padding: 80px 0 48px;
-}
-
-.hero h1 {
-  font-size: 2.4rem;
-  color: #fafafa;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-.hero .tagline {
-  font-size: 1.2rem;
-  color: #a78bfa;
-  margin-bottom: 16px;
-  font-weight: 500;
-}
-
-.hero .intro {
-  color: #a1a1aa;
-  margin-bottom: 24px;
-}
-
-.hero .links {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.hero .links a {
-  color: #71717a;
-  font-size: 14px;
-}
-
-.hero .links a:hover {
-  color: #7dd3fc;
-}
-
 /* Sections */
 section {
   padding: 56px 0;
   border-top: 1px solid #1e1e2e;
+}
+
+section:first-of-type {
+  border-top: none;
+  padding-top: 64px;
 }
 
 section h2 {
@@ -113,12 +79,28 @@ section h2 {
   font-weight: 600;
 }
 
+section h3 {
+  font-size: 0.85rem;
+  color: #71717a;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 32px;
+  margin-bottom: 4px;
+}
+
 section p {
   margin-bottom: 16px;
 }
 
 section p:last-child {
   margin-bottom: 0;
+}
+
+.interests-inline {
+  margin-top: 32px;
+  color: #52525b;
+  font-size: 0.9rem;
 }
 
 /* Timeline */
@@ -244,14 +226,6 @@ footer .interests {
 
 /* Mobile */
 @media (max-width: 640px) {
-  .hero h1 {
-    font-size: 1.8rem;
-  }
-
-  .hero .tagline {
-    font-size: 1rem;
-  }
-
   .timeline li {
     padding-left: 0;
     padding-bottom: 28px;

@@ -16,61 +16,36 @@
 
   <nav>
     <div class="container">
-      <a href="#thesis">Thesis</a>
-      <a href="#journey">Journey</a>
       <a href="#now">Now</a>
       <a href="#startup">Startup</a>
+      <a href="#journey">Career</a>
       <a href="#publications">Publications</a>
     </div>
   </nav>
 
-  <!-- Hero -->
-  <header class="hero">
+  <!-- What I'm Building Now -->
+  <section id="now">
     <div class="container">
-      <h1>Jneid Jneid</h1>
-      <p class="intro">
-        I host services and build platform AI/ML features for distributed compute --
-        building helm charts, configuring node pools, wiring up services, making
-        the path from git push to production as short as possible.
-        Infra has been luring me in my whole career. I started as an electrical engineer
-        writing constraint optimization and math equations. Got introduced to ML,
-        wrote few projects that actually made an impact. Moved to insurance.
-        Through all of it, deployment was the thing that bugged me -- getting models and
-        services actually running, reliably, at scale. That's the real software. That's
-        what I love to work on.
-      </p>
-      <div class="links">
-        <a href="https://github.com/JJneid">GitHub</a>
-        <a href="https://linkedin.com/in/jneid-jneid-b992a5bb">LinkedIn</a>
-        <a href="mailto:jjneid94@gmail.com">Email</a>
-      </div>
-    </div>
-  </header>
-
-  <!-- The 5x Engineer Thesis -->
-  <section id="thesis">
-    <div class="container">
-      <h2>The 5x Engineer</h2>
+      <h2>What I'm Building Now</h2>
       <p>
-        I'm a 2x, maybe 3x engineer on a good day. The aspiration is 5x. But here's the thing --
-        being a 1x engineer is itself a moving target. What counted as 1x two years ago
-        is table stakes now. AI code tools rewrote the baseline. Life changes shift what
-        you can give. The goal post moves.
+        At Autodesk, I work on the AI/ML platform that research teams and ML engineers run on --
+        the infrastructure between an idea and a model in production.
       </p>
-      <p>
-        The multiplier isn't about raw code output. It's about range. I've written optimization
-        solvers, ML models, data pipelines, SDKs, Terraform modules, and deployment systems.
-        Every time I thought I was done learning a new layer, the layer below it turned out to
-        be the interesting one. The math led to ML. ML led to pipelines. Pipelines led to
-        deployment. Deployment led to infrastructure. Infra is where I landed.
-      </p>
+      <ul class="work-list">
+        <li>Deploying and maintaining Metaflow -- Terraform module provisioning the RDS metadata store, Metaflow UI, and metadata service; currently migrating everything to a centralized account deployment. Gives researchers and ML engineers a path to scale Python pipelines to tens of workers: retraining pipelines, batch inference, petabyte-scale data generation from proprietary CAD files. GPU capacity planning and allocation runs through the same orchestration layer</li>
+        <li>Maintaining the Kubernetes cluster that hosts JupyterHub, Ray, and all central platform services</li>
+        <li>Built a Docker build service so users can iterate on inference engines without leaving their dev loop -- two backends: BuildKit direct for fast iteration, and a CI pipeline backend that adds image scanning and compliance gating. Reduced container build times by 10x (from days to minutes)</li>
+        <li>Provisioned low-latency DCV VMs accessible directly from SageMaker dev environments -- researchers and ML engineers visualize and inspect CAD 3D and video model outputs without round-tripping through a separate workstation</li>
+        <li><strong>Built Autodesk's official AI code review tool from zero</strong> -- grew it until it became the company standard, better than CodeRabbit, then handed it over</li>
+      </ul>
+      <p class="interests-inline">Current interests: sandboxing, VM isolation, Firecracker, gVisor.</p>
     </div>
   </section>
 
   <!-- Journey -->
   <section id="journey">
     <div class="container">
-      <h2>Journey</h2>
+      <h2>Career</h2>
       <ul class="timeline">
 
         <li>
@@ -144,28 +119,6 @@
     </div>
   </section>
 
-  <!-- What I'm Building Now -->
-  <section id="now">
-    <div class="container">
-      <h2>What I'm Building Now</h2>
-      <p>
-        At Autodesk, I'm building an AI/ML platform pushing for a unified control plane
-        across all services -- centralization of the stack with self-service as the goal.
-        I'm also an in-house tool builder and maintainer -- co-built an AI code review
-        tool that's better than Copilot and maybe CodeRabbit, and adoption has been wild.
-      </p>
-      <ul class="work-list">
-        <li>Developing and maintaining 5+ interconnected Terraform modules for infrastructure deployment</li>
-        <li>EKS cluster setup, ArgoCD application deployments, promotion pipelines</li>
-        <li>Deploying MCP servers in ECS containers</li>
-        <li>Distributed training infrastructure -- data/tensor/pipeline parallelism, checkpointing...</li>
-        <li>Monitoring, logging, debugging tooling and developer ergonomics</li>
-        <li>GitHub webhook apps</li>
-        <li>Performance bottleneck investigation across the full ML systems stack</li>
-      </ul>
-    </div>
-  </section>
-
   <!-- The Startup Chapter -->
   <section id="startup">
     <div class="container">
@@ -175,11 +128,11 @@
         leaves your premises. We got into Alchemist Accelerator (Class 37). We built things:
       </p>
       <ul class="work-list">
-        <li>Co-launched an AI Data Scientist with secure code execution -- deployed to 200+ users</li>
-        <li>Co-developed secure model hosting across multiple clouds -- 100+ Llama models deployed</li>
-        <li>Co-built a tool to chat with GitHub codebases</li>
-        <li>Co-built a full-stack AI deployment studio with GPU workspaces</li>
-        <li>Co-developed a Python SDK unifying AWS, GCP, and Azure APIs</li>
+        <li>An AI Data Scientist with secure code execution -- deployed to 200+ users</li>
+        <li>Secure model hosting across multiple clouds -- 100+ Llama models deployed</li>
+        <li>A tool to chat with GitHub codebases</li>
+        <li>A full-stack AI deployment studio with GPU workspaces</li>
+        <li>A Python SDK unifying AWS, GCP, and Azure APIs</li>
         <li>Technical content reaching 5,000+ monthly readers</li>
       </ul>
       <p>
