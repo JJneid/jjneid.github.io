@@ -13,7 +13,7 @@ At Autodesk, I work on the AI/ML platform that research teams and ML engineers r
 - **Kubernetes cluster** — hosts JupyterHub, Ray, and all central platform services.
 - **Docker build service** — two backends: BuildKit direct for fast iteration, and a CI pipeline backend that adds image scanning and compliance gating. Reduced container build times by 10x (from days to minutes).
 - **DCV visualization VMs** — low-latency VMs accessible directly from SageMaker dev environments; researchers and ML engineers inspect CAD 3D and video model outputs without round-tripping through a separate workstation.
-- **AI code review tool** — **built Autodesk's official AI code review tool from zero** using AWS Strands and GitHub MCP, deployed as an ECS service via an internal IaC SDK. Grew it until it became the company standard, better than CodeRabbit, then handed it over.
+- **AI code review tool** — **built Autodesk's official AI code review tool from zero** using AWS Strands and GitHub MCP, deployed as an ECS service via an internal IaC SDK. Grew it until it became the official AI code review tool used across all of Autodesk engineering, then handed it over.
 
 *Current interests: sandboxing, VM isolation, Firecracker, gVisor.*
 
