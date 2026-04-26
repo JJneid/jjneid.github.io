@@ -11,14 +11,14 @@ html {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  background: #0f0f1a;
+  background: #111008;
   color: #d4d4d8;
   line-height: 1.7;
   font-size: 17px;
 }
 
 a {
-  color: #7dd3fc;
+  color: #fbbf24;
   text-decoration: none;
 }
 
@@ -37,9 +37,9 @@ a:hover {
 nav {
   position: sticky;
   top: 0;
-  background: #0f0f1aee;
+  background: #111008ee;
   backdrop-filter: blur(8px);
-  border-bottom: 1px solid #1e1e2e;
+  border-bottom: 1px solid #1e1b0e;
   padding: 12px 0;
   z-index: 10;
 }
@@ -64,7 +64,7 @@ nav a:hover {
 /* Sections */
 section {
   padding: 56px 0;
-  border-top: 1px solid #1e1e2e;
+  border-top: 1px solid #1e1b0e;
 }
 
 section:first-of-type {
@@ -99,8 +99,8 @@ section p:last-child {
 
 .interests-inline {
   margin-top: 32px;
-  color: #52525b;
-  font-size: 0.9rem;
+  color: #f59e0b;
+  font-size: 0.95rem;
 }
 
 /* Timeline */
@@ -135,7 +135,7 @@ section p:last-child {
 }
 
 .timeline .company {
-  color: #a78bfa;
+  color: #f59e0b;
   font-size: 0.95rem;
 }
 
@@ -161,14 +161,14 @@ section p:last-child {
   content: "\203A";
   position: absolute;
   left: 0;
-  color: #a78bfa;
+  color: #f59e0b;
   font-weight: 700;
 }
 
 /* Notes */
 .note {
-  background: #16162a;
-  border-left: 3px solid #a78bfa;
+  background: #19160a;
+  border-left: 3px solid #f59e0b;
   padding: 20px 24px;
   margin-bottom: 24px;
   border-radius: 0 6px 6px 0;
@@ -188,7 +188,7 @@ section p:last-child {
 /* Publications */
 .publication {
   padding: 12px 0;
-  border-bottom: 1px solid #1e1e2e;
+  border-bottom: 1px solid #1e1b0e;
 }
 
 .publication:last-child {
@@ -208,7 +208,7 @@ section p:last-child {
 /* Footer */
 footer {
   padding: 48px 0;
-  border-top: 1px solid #1e1e2e;
+  border-top: 1px solid #1e1b0e;
   color: #52525b;
   font-size: 14px;
 }
