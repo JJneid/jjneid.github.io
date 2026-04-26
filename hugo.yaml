@@ -1,0 +1,44 @@
+baseURL: "https://jjneid.github.io/"
+languageCode: en-us
+title: Jneid Jneid
+theme: PaperMod
+paginate: 5
+
+params:
+  defaultTheme: dark
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowShareButtons: false
+  ShowToc: true
+
+  homeInfoParams:
+    Title: "Jneid Jneid"
+    Content: >
+      Platform and infrastructure engineer — EKS clusters, GitOps pipelines,
+      GPU training infrastructure, self-service developer tooling.
+      I build the systems research and ML teams run on.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/JJneid"
+    - name: linkedin
+      url: "https://linkedin.com/in/jneid-jneid-b992a5bb"
+    - name: email
+      url: "mailto:jjneid94@gmail.com"
+
+  assets:
+    favicon: /img/og.png
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: posts
+      name: Writing
+      url: /posts/
+      weight: 20
