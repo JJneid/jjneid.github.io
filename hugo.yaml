@@ -21,7 +21,7 @@ params:
 
       ---
 
-      **What I'm building now:** At Autodesk I run the AI/ML platform — EKS GPU cluster (P5), Metaflow infrastructure that scales researchers to 50 concurrent Ray clusters processing petabytes of data, a Docker build service that cut container build times from days to minutes, and the official AI code review tool now used across all of Autodesk engineering.
+      **What I'm building now:** At Autodesk I run the AI/ML platform — EKS GPU cluster, Metaflow infrastructure that scales researchers to dozens of concurrent Ray clusters processing petabytes of data, a Docker build service that cut container build times from days to minutes, and the official AI code review tool now used across all of Autodesk engineering.
 
       Before that: co-founded slashML (Alchemist Accelerator), deploying 100+ LLMs across AWS, GCP, and Azure. Before that: financial risk pipelines at TD Bank, ML research at Hydro Québec, MSc at McGill.
 
