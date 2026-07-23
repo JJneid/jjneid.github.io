@@ -21,7 +21,7 @@ We built it after watching ML engineers lose hours — sometimes days — dealin
 
 The baseline is a Python environment to work in, a framework to train at scale (Ray), and a framework to orchestrate their pipelines (Metaflow). With just those three, a researcher can go far — mostly in scale. Researchers love compute scale. They'll use every core you give them, and they'll debug and complain loudly when something breaks.
 
-Providing that scale is our job. Once a researcher has prototyped a model on a single GPU, they should be able to launch the big, *expensive* training job with no issues. That means being good at designing the k8s system underneath — proper job scheduling, compute isolation in place, all of it invisible to them.
+Providing that scale is our job. Once a researcher has prototyped a model on a single GPU, they should be able to launch the big, **expensive** training job with no issues. That means being good at designing the k8s system underneath — proper job scheduling, compute isolation in place, all of it invisible to them.
 
 ## The part you don't see: multi-tenancy, auth, k8s-native
 
