@@ -8,7 +8,7 @@ ShowToc: true
 ---
 
 <figure style="margin:0 0 2.4em;text-align:center">
-<video src="/media/duck.mp4" autoplay muted loop playsinline width="460" style="max-width:100%;height:auto;border-radius:10px"></video>
+<video src="/media/duck.mp4" autoplay muted loop playsinline style="width:100%;max-width:360px;height:auto;border-radius:10px"></video>
 </figure>
 
 ## The one-line version
