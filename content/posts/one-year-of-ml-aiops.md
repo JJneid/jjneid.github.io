@@ -15,7 +15,7 @@ Users (aka researchers) are good at telling you what the problem is, aka what th
 
 Here's a concrete example of "everything they're missing." We added self-serve Docker build capability to the platform. It's something that's absent from a lot of ML setups, and it turns out to be exactly the thing that bridges training and inference.
 
-We built it after watching ML engineers lose hours, sometimes days, dealing with ECR and IAM permissions just to move between training and inference environments. That's not exactly part of the model work; it's platform work. A platform's job is to offer this within the researcher's workflow, ideally centrally. I learned that the major piece of platform engineering is central services.
+We built it after watching ML engineers set up CI pipelines and deal with ECR and IAM permissions just to move between training and inference environments. That's not exactly part of the model work; it's platform work. A platform's job is to offer this within the researcher's workflow, ideally centrally. I learned that the major piece of platform engineering is central services.
 
 ## What we hand researchers
 
