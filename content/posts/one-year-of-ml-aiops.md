@@ -41,4 +41,4 @@ We poured all our startup and dev-tooling learnings into this experiment: build 
 
 ---
 
-*Want to join the mission? We're hiring — across the board. [See open AI/ML platform roles at Autodesk →](https://autodesk.wd1.myworkdayjobs.com/en-US/Ext?q=ai/ml&AI-ML-Platform_26WD99140-1=)*
+*Want to join the mission? Autodesk is hiring — across the board. [See open AI/ML platform roles at Autodesk →](https://autodesk.wd1.myworkdayjobs.com/en-US/Ext?q=ai/ml&AI-ML-Platform_26WD99140-1=)*
