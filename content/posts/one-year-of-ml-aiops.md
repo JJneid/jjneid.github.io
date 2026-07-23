@@ -33,7 +33,7 @@ Everyone says inference is the future. Maybe. But it's worth remembering that be
 
 We're no longer in the business of deploying a model — traditional MLOps. We're now in the era of scaling compute.
 
-## The work I'm proudest of: BeaCode
+## The work I'm proudest of
 
 During an innovation sprint — the kind where you can build anything — Ali Jahani and I decided to build a product, A-to-Z, startup style, inside Autodesk. Within a few months we 10x'd organic adoption with no top-down mandate, and it's now the official AI code review tool at the company.
 
