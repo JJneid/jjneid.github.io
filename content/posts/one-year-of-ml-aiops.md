@@ -38,3 +38,7 @@ We're no longer in the business of deploying a model — traditional MLOps. We'r
 During an innovation sprint — the kind where you can build anything — Ali Jahani and I decided to build a product, A-to-Z, startup style, inside Autodesk. Within a few months we 10x'd organic adoption with no top-down mandate, and it's now the official AI code review tool at the company.
 
 We poured all our startup and dev-tooling learnings into this experiment: build a really good product, be where developers already are, make it interactive, run a support channel with a real feature-intake loop, and iterate on user feedback fast. I'm glad we got to experience product–enterprise fit.
+
+---
+
+*Want to join the mission? We're hiring — across the board. [See open AI/ML platform roles at Autodesk →](https://autodesk.wd1.myworkdayjobs.com/en-US/Ext?q=ai/ml&AI-ML-Platform_26WD99140-1=)*
