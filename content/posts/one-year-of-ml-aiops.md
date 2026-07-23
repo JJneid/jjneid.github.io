@@ -31,7 +31,7 @@ A large part of the job is making all of this safe and accessible for many teams
 
 Everyone says inference is the future. Maybe. But it's worth remembering that behind every inference-optimized model — LLM or otherwise — is a mountain of engineering: figuring out how to extend sequence length, squeeze latency, and fit the thing into production without breaking it.
 
-We're no longer in the business of deploying a model — traditional MLOps. We're now in the era of scaling compute.
+We're no longer in the business of deploying a model — traditional MLOps. We're now in the era of scaling compute. (but you already know that)
 
 ## The work I'm proudest of
 
