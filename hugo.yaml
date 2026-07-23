@@ -4,6 +4,11 @@ title: Jneid Jneid
 theme: PaperMod
 paginate: 5
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 params:
   defaultTheme: dark
   disableThemeToggle: false
