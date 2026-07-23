@@ -1,7 +1,7 @@
 ---
 date: '2026-07-23'
 draft: false
-title: 'What One Year of ML/AIOps Looked Like'
+title: 'What One Year of AI Infra Looked Like'
 summary: "A year of platform engineering at Autodesk — what MLOps actually is, from Docker build services and Ray/Metaflow to the AI code review tool we shipped startup-style."
 tags: ["MLOps", "Platform Engineering", "Kubernetes", "Autodesk"]
 ShowToc: true
