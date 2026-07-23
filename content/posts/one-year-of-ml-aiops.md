@@ -7,17 +7,8 @@ tags: ["MLOps", "Platform Engineering", "Kubernetes", "Autodesk"]
 ShowToc: true
 ---
 
-<figure style="margin:0 0 2.4em;display:flex;flex-direction:column;align-items:center;font-family:system-ui,-apple-system,sans-serif">
-<div style="border:1.5px solid currentColor;border-radius:8px;padding:12px 22px;text-align:center">
-<div style="font-weight:600">What people think the job is</div>
-<div style="opacity:0.55;font-size:0.9em;margin-top:3px">train → deploy</div>
-</div>
-<div style="width:1.5px;height:34px;background:currentColor;opacity:0.85"></div>
-<div style="width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:7px solid currentColor;opacity:0.85;margin-top:-2px"></div>
-<div style="border:1.5px solid currentColor;border-radius:8px;padding:12px 22px;text-align:center;margin-top:4px">
-<div style="font-weight:600">What the job actually is</div>
-<div style="opacity:0.55;font-size:0.9em;margin-top:3px">everything underneath</div>
-</div>
+<figure style="margin:0 0 2.4em;text-align:center">
+<video src="/media/duck.mp4" autoplay muted loop playsinline width="460" style="max-width:100%;height:auto;border-radius:10px"></video>
 </figure>
 
 ## The one-line version
